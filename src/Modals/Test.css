@@ -1,0 +1,58 @@
+.custom-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  min-height: fit-content;
+  /* z-index: 9999; */
+  border-radius: 20px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#modal-buttons-container{
+  margin-top:20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: auto;
+  justify-content: space-around;
+
+}
+
+
+#my-button{
+  border: 1px solid black ;
+  display: flex;
+  flex: 1;
+  height: 40px;
+  justify-content: center; /* Align text horizontally to center */
+  align-items: center; /* Alig
+  /* width: 100%; */
+  border-radius: 10px;
+}
+
+
+#row-btns{
+  display: flex;
+  gap: 10px;
+  /* background-color: aqua; */
+  justify-content: center;
+}
+
+
+span {
+  font-weight: bold;
+}
+
+
+.delete{
+  background-color: red;
+  color: antiquewhite;
+}
